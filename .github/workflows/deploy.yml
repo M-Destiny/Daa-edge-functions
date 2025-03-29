@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: 🔧 Install Supabase CLI
-        run: npm install -g supabase
+        run: npm install  supabase
 
       - name: 🚀 Deploy Edge Function
         env:
