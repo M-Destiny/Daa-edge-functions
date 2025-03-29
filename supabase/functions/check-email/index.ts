@@ -1,6 +1,6 @@
 // Import required types and Supabase client
-import "jsr:@supabase/functions-js/edge-runtime.d.ts";
-import { createClient } from '@supabase/supabase-js';
+import "https://jsr.io/@supabase/functions-js/2.4.4/src/edge-runtime.d.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js";
 
 // Initialize Supabase client with environment variables
 const supabase = createClient(
